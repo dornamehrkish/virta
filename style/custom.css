@@ -9,11 +9,19 @@ h1, h2, h3, h4, h5, a {
 }
 a {
   text-decoration: none;
+  font-weight: 700;
 }
 p {
   color: #6C808B;
   font-size: 20px;
-  font-weight: lighter;
+  font-weight: 300;
+  line-height: 36px;
+}
+
+h1 {
+  font-size: 30px;
+  margin-top: 20px;
+  font-weight: 400;
 }
 
 /*hero section*/
@@ -21,24 +29,35 @@ p {
   background-image: url('../assets/background.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding: 50px 95px 50px;
 
 }
 .button {
-  background-image: linear-gradient(160deg,#3acfff,#3DB2FF 90%);
-  border-radius: 61px;
+    background-image: linear-gradient(160deg,#3acfff,#3DB2FF 90%);
+      border-radius: 61px;
+      padding: 24px 38px;
+      border: none;
+      color: white;
+      text-align: center;
+      display: inline-table;
+      margin: 4px 2px;
+      font-size: 27px;
+}
 
+i {
+  font-size: 30px;
 }
 
 .hero-container {
   background-color: white;
   opacity: .8;
   padding: 30px;
+  margin-top: -58px;
 }
 /*testimonial section*/
 .testimonials {
   text-align: center;
+  padding: 75px;
 }
 
 .customer {
@@ -56,6 +75,11 @@ p {
 	border-radius: 125px;
   margin: 0 auto;
 
+}
+
+.see-more {
+  font-size: 17px;
+  margin: 30px;
 }
 
 
