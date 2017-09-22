@@ -92,3 +92,12 @@ i {
 
 
 }
+
+/*media queries*/
+
+@media only screen and (max-width: 500px) {
+    hero {
+        padding: 51px 18px 50px;
+        opacity: .1;
+    }
+}
